@@ -4,12 +4,12 @@
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableReports>true</enableReports>
-    <label>CDC Metrics</label>
+    <label>OBS CDC Metrics</label>
     <nameField>
         <displayFormat>CDC_Metrics-{000000}</displayFormat>
-        <label>CDC Metrics Name</label>
+        <label>OBS CDC Metrics Name</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>CDC Metrics</pluralLabel>
+    <pluralLabel>OBS CDC Metrics</pluralLabel>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

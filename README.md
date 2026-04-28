@@ -73,6 +73,17 @@ Then review records in custom objects and wire reports/dashboards.
 
 ---
 
+## Packaged analytics assets
+
+This package now includes deployable **reports and dashboard metadata** under:
+
+- `force-app/main/default/reports/OBS_Observability/`
+- `force-app/main/default/dashboards/OBS_Observability/`
+- `force-app/main/default/reportFolders/`
+- `force-app/main/default/dashboardFolders/`
+
+All these assets are prefixed with **OBS** for easy discovery in installed orgs.
+
 ## Target dashboards
 
 1. **Org Health Overview**

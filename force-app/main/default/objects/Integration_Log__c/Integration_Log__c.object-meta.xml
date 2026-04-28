@@ -4,12 +4,12 @@
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableReports>true</enableReports>
-    <label>Integration Log</label>
+    <label>OBS Integration Log</label>
     <nameField>
         <displayFormat>Integration_Log-{000000}</displayFormat>
-        <label>Integration Log Name</label>
+        <label>OBS Integration Log Name</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Integration Logs</pluralLabel>
+    <pluralLabel>OBS Integration Logs</pluralLabel>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

@@ -1,21 +1,30 @@
-# Dashboard and Report Configuration
+# Dashboard and Report Configuration (OBS Package)
 
-## Dashboard 1: Org Health Overview
-- Report type: Org Limits custom object.
-- Components: API Usage Gauge (`Api_Usage_Percentage__c`), Storage Gauge (`Storage_Usage_Percentage__c`), Streaming Used vs Limit.
+All packaged analytics assets are prefixed with **OBS** so they are clearly identifiable after installation.
 
-## Dashboard 2: License Utilization
-- Report type: License Usage.
-- Components: stacked bar `Used_Licenses__c` vs `Total_Licenses__c`; table sorted by `Remaining_Licenses__c`.
+## Deployed report folder
+- `OBS_Observability`
 
-## Dashboard 3: Async Job Health
-- Report type: Async Job Monitor.
-- Components: failed jobs in last 24h, donut by `Status__c`, table by `Apex_Class__c`.
+## Deployed reports
+- `OBS Org Limits Snapshot`
+- `OBS License Utilization`
+- `OBS Async Job Health`
+- `OBS Integration Health`
+- `OBS Email Processing`
 
-## Dashboard 4: Integration Health
-- Report type: Integration Log.
-- Components: success/failure pie by `Status__c`; average `Response_Time_ms__c` line trend.
+## Deployed dashboard
+- `OBS Org Observability Dashboard`
 
-## Dashboard 5: Email Processing
-- Report type: Email Metrics.
-- Components: avg attachments per case, avg processing time trend, total attachment MB trend.
+## Optional: Expand into separate dashboards
+You can clone the packaged dashboard and split into dedicated dashboards:
+
+1. **OBS Org Health Overview**
+   - API Usage Gauge (%), Storage Usage Gauge (%), Streaming Usage trend.
+2. **OBS License Utilization**
+   - Used vs total licenses, remaining licenses by type.
+3. **OBS Async Job Health**
+   - Failed jobs in last 24h, jobs by status.
+4. **OBS Integration Health**
+   - Success vs failure rate, average response time.
+5. **OBS Email Processing**
+   - Avg attachments per case, processing time trends.

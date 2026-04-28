@@ -4,12 +4,12 @@
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableReports>true</enableReports>
-    <label>License Usage</label>
+    <label>OBS License Usage</label>
     <nameField>
         <displayFormat>License_Usage-{000000}</displayFormat>
-        <label>License Usage Name</label>
+        <label>OBS License Usage Name</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>License Usages</pluralLabel>
+    <pluralLabel>OBS License Usages</pluralLabel>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

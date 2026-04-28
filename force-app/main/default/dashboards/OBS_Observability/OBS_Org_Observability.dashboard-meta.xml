@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <dashboardGridLayout>
+        <dashboardGridComponents>
+            <colSpan>6</colSpan>
+            <column>0</column>
+            <height>6</height>
+            <row>0</row>
+            <rowSpan>4</rowSpan>
+            <widget>
+                <title>OBS API &amp; Storage Usage</title>
+                <visualizationType>Gauge</visualizationType>
+            </widget>
+            <report>OBS_Observability/OBS_Org_Limits_Snapshot</report>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>6</colSpan>
+            <column>6</column>
+            <height>6</height>
+            <row>0</row>
+            <rowSpan>4</rowSpan>
+            <widget>
+                <title>OBS License Utilization</title>
+                <visualizationType>Donut</visualizationType>
+            </widget>
+            <report>OBS_Observability/OBS_License_Utilization</report>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>4</colSpan>
+            <column>0</column>
+            <height>6</height>
+            <row>4</row>
+            <rowSpan>4</rowSpan>
+            <widget>
+                <title>OBS Async Jobs</title>
+                <visualizationType>VerticalBar</visualizationType>
+            </widget>
+            <report>OBS_Observability/OBS_Async_Job_Health</report>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>4</colSpan>
+            <column>4</column>
+            <height>6</height>
+            <row>4</row>
+            <rowSpan>4</rowSpan>
+            <widget>
+                <title>OBS Integration Health</title>
+                <visualizationType>Donut</visualizationType>
+            </widget>
+            <report>OBS_Observability/OBS_Integration_Health</report>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>4</colSpan>
+            <column>8</column>
+            <height>6</height>
+            <row>4</row>
+            <rowSpan>4</rowSpan>
+            <widget>
+                <title>OBS Email Processing</title>
+                <visualizationType>Line</visualizationType>
+            </widget>
+            <report>OBS_Observability/OBS_Email_Processing</report>
+        </dashboardGridComponents>
+    </dashboardGridLayout>
+    <description>OBS packaged dashboard for operational observability</description>
+    <folderName>OBS_Observability</folderName>
+    <title>OBS Org Observability Dashboard</title>
+</Dashboard>

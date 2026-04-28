@@ -4,12 +4,12 @@
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableReports>true</enableReports>
-    <label>Async Job Monitor</label>
+    <label>OBS Async Job Monitor</label>
     <nameField>
         <displayFormat>Async_Job_Monitor-{000000}</displayFormat>
-        <label>Async Job Monitor Name</label>
+        <label>OBS Async Job Monitor Name</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Async Job Monitors</pluralLabel>
+    <pluralLabel>OBS Async Job Monitors</pluralLabel>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>

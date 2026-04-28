@@ -4,12 +4,12 @@
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableReports>true</enableReports>
-    <label>Email Metrics</label>
+    <label>OBS Email Metrics</label>
     <nameField>
         <displayFormat>Email_Metrics-{000000}</displayFormat>
-        <label>Email Metrics Name</label>
+        <label>OBS Email Metrics Name</label>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Email Metrics</pluralLabel>
+    <pluralLabel>OBS Email Metrics</pluralLabel>
     <sharingModel>ReadWrite</sharingModel>
 </CustomObject>
