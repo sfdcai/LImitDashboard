@@ -1,0 +1,17 @@
+title: Salesforce Observability Dashboard
+email: hello@example.com
+description: >-
+  Non-AI Salesforce observability framework for limits, jobs, integrations,
+  storage, and operational dashboarding.
+baseurl: ""
+url: ""
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+header_pages:
+  - features.md
+  - architecture.md
+  - pricing.md
+  - contact.md
