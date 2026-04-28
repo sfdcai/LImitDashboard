@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>NAME</columns>
+    <columns>Integration_Log__c.Timestamp__c</columns>
+    <columns>Integration_Log__c.System_Name__c</columns>
+    <columns>Integration_Log__c.Endpoint__c</columns>
+    <columns>Integration_Log__c.Status__c</columns>
+    <columns>Integration_Log__c.Response_Time_ms__c</columns>
+    <description>OBS package report for integration health metrics</description>
+    <format>Summary</format>
+    <groupingsDown>
+        <field>Integration_Log__c.Status__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>OBS Integration Health</name>
+    <reportType>Integration_Log__c</reportType>
+    <scope>organization</scope>
+    <timeFrameFilter>
+        <dateColumn>Integration_Log__c.Timestamp__c</dateColumn>
+        <interval>LAST_30_DAYS</interval>
+    </timeFrameFilter>
+</Report>

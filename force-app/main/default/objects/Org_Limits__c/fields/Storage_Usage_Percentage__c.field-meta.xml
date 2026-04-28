@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata"><fullName>Storage_Usage_Percentage__c</fullName><formula>IF((Data_Storage_Limit_MB__c + File_Storage_Limit_MB__c) > 0, (Data_Storage_Used_MB__c + File_Storage_Used_MB__c)/(Data_Storage_Limit_MB__c + File_Storage_Limit_MB__c), 0)</formula><formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs><label>OBS Storage Usage Percentage</label><precision>5</precision><scale>2</scale><type>Percent</type></CustomField>
